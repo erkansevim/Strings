@@ -53,7 +53,12 @@ let read="erkan sevim is ein developer"
 
 console.log(read.replace("developer", "entwickler"));
 
-//---------
+//---------slice
+
+let cv="erkan sevim"
+console.log(cv.slice(-6,-1));
+
+//---
 
 
 
