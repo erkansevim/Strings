@@ -58,7 +58,13 @@ console.log(read.replace("developer", "entwickler"));
 let cv="erkan sevim"
 console.log(cv.slice(-6,-1));
 
-//---
+//---split
 
+const sing="gel gündüzle gece olalim"
+console.log(sing.split(" "));
+console.log(sing.split(""));
 
+//-----trim
 
+const worter="    geleneksel"
+console.log(worter.trim());
